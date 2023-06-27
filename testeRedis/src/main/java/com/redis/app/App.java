@@ -93,7 +93,8 @@ public class App {
 
         System.out.print("\nTitulo: ");
         titulo = scn.next();
-        System.out.print("\nLembrete: ");
+        System.out.print("");
+        System.out.print("Lembrete: ");
         msg = scn.next();
 
         if(opcao == 1) {
@@ -115,7 +116,8 @@ public class App {
 
         System.out.print("\nChave atual:");
         old = scn.next();
-        System.out.print("\nNova chave:");
+        System.out.print("");
+        System.out.print("Nova chave:");
         nov = scn.next();
 
         Jedis aux = new ConexaoRedis().getConexao();
